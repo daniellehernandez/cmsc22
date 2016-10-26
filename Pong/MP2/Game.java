@@ -108,8 +108,8 @@ public class Game extends JPanel {
 
         Sounds.GAMEAGAIN.play();
         while (!gameOver){
-            game.move();
-            game.repaint();
+            game.move(); //CALLS FOR THE MOVEMENT
+            game.repaint(); //UPDATES THE FRAME FOR THE MOVEMENTS
             Thread.sleep(10);
         }
 
