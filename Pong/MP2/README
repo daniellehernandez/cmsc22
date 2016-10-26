@@ -8,7 +8,7 @@
 -Player 1 has the left and right arrow keys for movement.
 -Player 2 has the A and D keys for movement.
 -Every point earned by any player will prompt the game for a new setup. (Ball will go back to its starting position everytime someone scores)
--Whoever gets to 3 pts the fastest will win the game.
+-Whoever gets 3 pts the fastest will win the game.
 -------------------------
 Design Decisions & Issues
 -------------------------
