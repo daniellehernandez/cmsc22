@@ -6,7 +6,7 @@ package Tutorial;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 
-public class Player {
+public class Player { //SLIGHT REVISIONS IN X AND Y VALUES. PLAYER IS THE SAME AS PLAYER TWO IN TERMS OF METHODS
 
     private static final int Y = 530;
     private static final int WIDTH = 70;
@@ -20,11 +20,11 @@ public class Player {
     }
 
     public void moveRacquet() {
-        if (x + xBounce > 0 && x + xBounce < game.getWidth() - WIDTH)
+        if (x + xBounce > 0 && x + xBounce < game.getWidth() - WIDTH) 
             x = x + xBounce;
     }
 
-    public void paint(Graphics2D g) {
+    public void paint(Graphics2D g) { //PAINT FOR RACQUET
         g.setColor(Color.gray);
         g.fillRect(x, Y, WIDTH, HEIGHT);
     }
@@ -40,7 +40,7 @@ public class Player {
             xBounce = game.speed;
     }
 
-    public Rectangle getBounds() {
+    public Rectangle getBounds() { // REQUIRMENT FOR COLLISION
         return new Rectangle(x, Y, WIDTH, HEIGHT);
     }
 
