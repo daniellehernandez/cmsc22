@@ -116,17 +116,14 @@ public class Game extends JPanel {
         gameOver = false;
         Sounds.RESTART.play(); //APPLAUSE
         String winner = "";
-        if(game.score1 > game.score2){
-            winner = "Player 1";
-        } else { winner = "Player 2"; }
-
+        if(game.score1 > game.score2){ winner = "Player 1";} else { winner = "Player 2"; } 
         int ans = JOptionPane.showConfirmDialog(null, winner + " Wins! " + "\n Would you like to play again?","", JOptionPane.YES_NO_OPTION);
-        if (ans == JOptionPane.YES_OPTION) {
+        if (ans == JOptionPane.YES_OPTION) { //USER RESTARTS
             Thread.sleep(900);
             frame.dispose(); //EXITS THE FIRST FRAME
             main(args); //ma-gameover na // CREATES NEW FRAME FOR NEW GAME
         }
-        else {
+        else { //USER CHOOSES NOT TO RESTART THE GAME
             System.exit(ABORT); //EXITS FRAME
         }
     }
