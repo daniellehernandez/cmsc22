@@ -91,7 +91,7 @@ public class Game extends JPanel {
 
     public void restart() {
         Sounds.GAMEOVER.play(); //BLOOP!
-        JOptionPane.showMessageDialog(null,"SCORE!"); //SOFT RESTART(?) RESTART THE GAME AGAIN BUT SAVES THE SCORE SINCE DI PA GAME OVER
+        JOptionPane.showMessageDialog(null,"SCORE!"); //SOFT RESTART // RESTART THE GAME AGAIN BUT SAVES THE SCORE SINCE DI PA GAME OVER
 
     }
 
