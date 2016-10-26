@@ -3,7 +3,7 @@
 -------------------------
 -Simple Game that depicts a ping pong match with 3 as a winning point.
 -The game will start off with the ball in speed 2
--As the game progresses the difficuty also increases since the speed will increment. (Until speed 7 and then automatically adjusts to 5 to be realistic)
+-As the game progresses the difficulty also increases since the speed will increment. (Until speed 7 and then automatically adjusts to 5 to be realistic)
 -All you have to do is get the ball across the table and try your hardest to outwit the opponent and get pass his/her defenses.  
 -Player 1 has the left and right arrow keys for movement.
 -Player 2 has the A and D keys for movement.
