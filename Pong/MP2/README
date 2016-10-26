@@ -12,7 +12,7 @@
 -------------------------
 Design Decisions & Issues
 -------------------------
--Arena Patterned after hockey field.
+-Arena Patterned after hockey table.
 -The ball will change color depending on who leads the game (added incentive)
 -Color scheme was based on the Philippine Flag. (huehuehue)
 -Issue #1 lags when both Player 1 Racquet and Player 2 Racquet moves at the same time. (or maybe it's just my laptop but nevertheless I'll research more on keyevents sir)
