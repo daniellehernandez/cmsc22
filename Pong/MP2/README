@@ -16,5 +16,5 @@ Design Decisions & Issues
 -The ball will change color depending on who leads the game (added incentive)
 -Color scheme was based on the Philippine Flag. (huehuehue)
 -Issue #1 lags when both Player 1 Racquet and Player 2 Racquet moves at the same time. (or maybe it's just my laptop but nevertheless I'll research more on keyevents sir)
--Issues #2 racquet edge collisions are safe. (Although it rarely happens in real life)
+-Issue #2 racquet edge collisions are safe. (Although it rarely happens in real life)
 -Should have used one class for Players.
