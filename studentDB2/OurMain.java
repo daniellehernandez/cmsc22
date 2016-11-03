@@ -28,7 +28,7 @@ public class OurMain {
                    try {
                        ois = new ObjectInputStream(fis);
                        if (ois.read() == -1) {
-                           students = (List) ois.readObject();
+                           students = (List<Student>) ois.readObject();
                            ois.close();
                        }
                    } catch (EOFException e){
