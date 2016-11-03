@@ -113,7 +113,7 @@ public class OurMain {
              String snToView = s.next();
                for (Student toView : students) {
                  if ((toView.getStudentNumber()).equals(snToView)) {
-                     System.out.println(String.format("Student Number: %s\nFirst Name: %s\nMiddle Initial: %c\nLast Name: %s\nCourse: %s\nYear Level: %d\n",toView.getStudentNumber(),toView.getFirstName(),toView.getMiddleInitial(),toView.getLastName(),toView.getCourse(),toView.getYearLevel()));
+                  System.out.println(String.format("Student Number: %s\nFirst Name: %s\nMiddle Initial: %c\nLast Name: %s\nCrush:%s \nFave Course:%s \nCourse:%s\nYear Level: %d",toView.getStudentNumber(),toView.getFirstName(),toView.getMiddleInitial(),toView.getLastName(),toView.getCrushName(),toView.getFaveCourse(),toView.getCourse(),toView.getYearLevel()));
                      flager = 0;
                  }
              }
