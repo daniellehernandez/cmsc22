@@ -27,8 +27,8 @@ public class OurMain {
                     fis = new FileInputStream("SAVED.txt");
                    try {
                        ois = new ObjectInputStream(fis);
-                       if (ois.read() != -1) {
-                           List<Student> studentAdd = (List) ois.readObject();
+                       if (ois.read() == -1) {
+                           students = (List) ois.readObject();
                            ois.close();
                        }
                    } catch (EOFException e){
